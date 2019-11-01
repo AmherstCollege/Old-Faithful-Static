@@ -1,0 +1,6 @@
+name: "Old-Faithful"
+navbar:
+  title: "Old Faithful"
+  left:
+    - text: "Home"
+      href: index.html

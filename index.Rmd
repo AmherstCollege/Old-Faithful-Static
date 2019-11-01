@@ -1,0 +1,13 @@
+---
+title: "Old Faithful"
+output: html_document
+---
+
+```{r}
+input <- 30
+x <- faithful$waiting
+bins <- seq(min(x), max(x), length.out = input + 1)
+hist(x, breaks = bins, col = "#75AADB", border = "white",
+         xlab = "Waiting time to next eruption (in mins)",
+         main = "Histogram of waiting times")
+```
