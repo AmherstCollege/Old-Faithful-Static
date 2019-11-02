@@ -1,4 +1,5 @@
 name: "Old-Faithful"
+output_dir: "docs"
 navbar:
   title: "Old Faithful"
   left:

@@ -291,7 +291,13 @@ $(document).ready(function () {
 </div>
 
 
-<p>input &lt;- 30 x &lt;- faithful$waiting bins &lt;- seq(min(x), max(x), length.out = input + 1) hist(x, breaks = bins, col = “#75AADB”, border = “white”, xlab = “Waiting time to next eruption (in mins)”, main = “Histogram of waiting times”)</p>
+<pre class="r"><code>input &lt;- 30
+x &lt;- faithful$waiting
+bins &lt;- seq(min(x), max(x), length.out = input + 1)
+hist(x, breaks = bins, col = &quot;#75AADB&quot;, border = &quot;white&quot;,
+         xlab = &quot;Waiting time to next eruption (in mins)&quot;,
+         main = &quot;Histogram of waiting times&quot;)</code></pre>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 
